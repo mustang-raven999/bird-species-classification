@@ -43,9 +43,19 @@ The models were fine-tuned by adjusting the trainable layers and employing diffe
 
 ## How to Run
 1. Clone the repository.
-2. Open and run the Jupyter notebook `Bird_Classification_script.ipynb`.
-3. Ensure you have the necessary dependencies installed (TensorFlow, Keras, etc.).
-4. Review the findings and results in the `Bird_Classification.pdf` file.
+2. Ensure you have the necessary dependencies installed (TensorFlow, Keras, etc.).
+
+NOTE: Running the whole project might take an extended period of time. Training time also depends on your system's computation capabilities.
+
+i.  Download the project by unzipping the folder provided. Also download the image dataset seperately and upload it in your drive in the following paths:
+	drive_zip_file = "/content/drive/My Drive/bird_classification/bird_CUB_200_2011.zip"
+
+ii. In case you just want to see how the model is working, the model is provided along with the code file. Load the model and go to the "Model Evaluation" section of the notebook and run the cells under that section.
+
+iii. Before running the code you might want to comment out the models{Incase of multiple models applied} containing the command model.fit
+
+
+3. Review the findings and results in the `Bird_Classification.pdf` file.
 
 ## Libraries Used
 - TensorFlow
